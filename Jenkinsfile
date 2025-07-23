@@ -13,7 +13,7 @@ pipeline {
     }
     post {
         always {
-            echo 'Pipeline Project webhook Test Branch'
+            echo 'Pipeline Project webhook Test '
             
         }
     }
