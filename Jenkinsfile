@@ -10,20 +10,10 @@ pipeline {
                 checkout scm
             }
         }
-        stage('Build') {
-            steps {
-                echo 'Building the application...'
-            }
-        }
-        stage('Test') {
-        steps {
-                echo 'Running unit tests...'
-            }
-        }
     }
     post {
         always {
-            echo 'Pipeline Project web hook1'
+            echo 'Pipeline Project webhook Test Branch'
             
         }
     }
