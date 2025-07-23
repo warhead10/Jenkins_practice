@@ -23,7 +23,7 @@ pipeline {
     }
     post {
         always {
-            echo 'Processing results...'
+            echo 'Pipeline Project web hook'
             
         }
     }
